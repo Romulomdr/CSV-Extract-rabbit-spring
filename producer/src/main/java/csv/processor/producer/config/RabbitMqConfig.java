@@ -14,11 +14,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitMqConfig {
 
-	private static final String QUEUE_NAME = "cadastro-usuarios-queue";
+	public static final String QUEUE_NAME = "cadastro-usuarios-queue";
 	
-	private static final String EXCHANGE_NAME = "cadastro-usuarios-exchange";
+	public static final String EXCHANGE_NAME = "cadastro-usuarios-exchange";
 	
-	private static final String ROUTING_KEY = "cadastro-usuarios-routingKey";
+	public static final String ROUTING_KEY = "cadastro-usuarios-routingKey";
 
     @Bean
     Queue queue() {
