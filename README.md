@@ -1,7 +1,6 @@
-# 📜 API to Extract CSV
-- ✨ Descrição
+# 📜 CSV Extractor and Saver
 
-Este projeto é dividido em dois microsserviços:
+This project is divided into two microservices:
 
 - **Producer**: Receives a .csv file via HTTP request, processes the records using Spring Batch and sends them in batches of 10 users to a RabbitMQ queue.
 
