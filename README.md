@@ -6,14 +6,14 @@ This project is divided into two microservices:
 
 - **Consumer**: Consumes messages from the RabbitMQ queue and registers users in the PostgreSQL database.
 
-## To start
+## 💾 To start
 - 1º Install Java 21
 - 2º Install PostgreSQL or use Docker
 - 3º Install Postman or other.
 - 4º Install IDE Spring Tools Suite
 - 5º Import project and run.
 
-## Dependencies
+## 🧩 Dependencies
 - 1º Spring Web
 - 2º Spring Batch
 - 3º Spring RabbitMQ
