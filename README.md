@@ -35,7 +35,7 @@ This project is divided into two microservices:
 
 ## 🚦 Flowchart
 - Producer:
-  ![Fluxo Producer](./Producer-flow.png)
+![Fluxo Producer](./Producer-flow.png)
 
 - Consumer:
 ![Fluxo Consumer](./Consumer-flow.png)
