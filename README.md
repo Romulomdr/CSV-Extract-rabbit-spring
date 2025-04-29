@@ -3,9 +3,9 @@
 
 Este projeto é dividido em dois microsserviços:
 
-### Producer: Receives a .csv file via HTTP request, processes the records using Spring Batch and sends them in batches of 10 users to a RabbitMQ queue.
+- **Producer**: Receives a .csv file via HTTP request, processes the records using Spring Batch and sends them in batches of 10 users to a RabbitMQ queue.
 
-### Consumer: Consumes messages from the RabbitMQ queue and registers users in the PostgreSQL database.
+- **Consumer**: Consumes messages from the RabbitMQ queue and registers users in the PostgreSQL database.
 
 ## To start
 - 1º Install Java 21
