@@ -34,7 +34,11 @@ This project is divided into two microservices:
 - Get all users. 🛠️(TO DO)🛠️
 
 ## 🚦 Flowchart
-- 🛠️(TO DO)🛠️
+- Producer:
+  ![Fluxo Producer](./Producer-flow.png)
+
+- Consumer:
+![Fluxo Consumer](./Consumer-flow.png)
 
 ## 🔗 Routes
 - POST /upload-csv
