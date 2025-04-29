@@ -35,10 +35,10 @@ This project is divided into two microservices:
 
 ## 🚦 Flowchart
 - Producer:
-![Flow Producer](./Producer-floww.png)
+![Flow Producer](./Producer-flow.png)
 
 - Consumer:
-![Flow Consumer](./Consumer-floww.png)
+![Flow Consumer](./Consumer-flow.png)
 
 ## 🔗 Routes
 - POST /upload-csv
